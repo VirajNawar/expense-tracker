@@ -1,6 +1,21 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+With the help of Track It you can easily track your daily experse.
+
+#Description
+
+This project is made with react js . The use of useState and useContext hook is used .
+
+The databse integraton is done with the help of firebase.
+
+One database is used for user login and register .
+#Fireabse User Database API :
+https://expense-tracker-1dd2f-default-rtdb.firebaseio.com/
+
+The other One is user for track expense of particular user.
+#Firebase User expense data API:
+https://expense-tracker-1dd2f-default-rtdb.firebaseio.com/
 
 ## Available Scripts
 
