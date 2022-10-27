@@ -1,0 +1,147 @@
+.trackerBlock{
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #0D0D0D;
+    padding: 20px;
+    width:100%;
+    max-width: 350px;
+    margin: 55px auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: table;
+}
+
+
+
+.welcome{
+    color: #FFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    /* text-shadow: 0px 5px 3px #292929; */
+}
+
+.totalMoney{
+    color: #FFFF;
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+}
+
+.newTransaction{
+    box-sizing: border-box;
+    text-align: center;
+    color:  #0081CB;
+    display: table;
+    width: 100%;
+    border-radius: 5px;
+    /* background-color: #FFFF; */
+    border: none;
+    padding: 10px;
+    margin: 0 0 10px;
+    font-size: 15px;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.05);
+
+}
+
+.newTransaction input[type="text"],
+.newTransaction select{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.03);
+    color: #FFFF;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+}
+
+
+.newTransaction input[type="text"]:focus,
+.newTransaction select:focus{
+    outline: 1px solid #594EF3;
+}
+
+
+.addTransaction{
+    width: 100%;
+    background: linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
+    border-radius: 16px;
+    color: #FFFF;
+    border: none;
+    padding: 15px;
+    margin: 10px 0 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition:  ease 0.5s;
+}
+
+.addTransaction:hover{
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: 1px solid #594EF3;
+}
+
+.latestTransaction{
+    margin: 10px 0 0 0;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.latestTransaction p{
+    font-weight: bold;
+    padding: 0 0 5px;
+    margin: 0;
+    font-size: 13px;
+    border-bottom: 1px solid #594EF3;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    border-bottom: 1px solid #594EF3;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+ul li:last-child{
+    border-bottom:none ;
+    padding: 5px 0;
+}
+
+.exit{
+    background: linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
+    border-radius: 8px;
+    border: none;
+    color: #FFFF;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.exit:hover{
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: 1px solid #594EF3;
+}
+
+/* Transaction */
+.expense{
+    color: #FF1A01;
+
+}
+
+.deposit{
+    color: #81CB00;
+}
+
